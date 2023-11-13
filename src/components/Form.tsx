@@ -41,7 +41,7 @@ const Form = () => {
       <div className="flex flex-col">
         <label 
         htmlFor="name" 
-        className="text-sm">
+        className="text-sm mb-1">
           Nome
           </label>
         <input className="rounded-lg py-2 px-2 text-sm placeholder:text-sm placeholder:text-stone-400" type="text" placeholder="Digite o seu nome" value={name} onChange={(e) => setName(e.target.value)} />
@@ -54,7 +54,7 @@ const Form = () => {
       <div className="flex flex-col">
         <label 
         htmlFor="email" 
-        className="text-sm">E-mail</label>
+        className="text-sm mb-1">E-mail</label>
         <input 
         className="rounded-lg py-2 px-2 text-sm placeholder:text-sm placeholder:text-stone-400" type="email" 
         placeholder="Digite o seu melhor e-mail" 
